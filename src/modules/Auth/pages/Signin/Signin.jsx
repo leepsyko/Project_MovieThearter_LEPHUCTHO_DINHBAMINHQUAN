@@ -55,7 +55,7 @@ export default function Signin() {
   };
 
 
-  
+
   //CurrentUser khác null => user đã đăng nhập => điều hướng về Home
   if (currentUser) {
     const redirectTo = searchParams.get("redirectTo");
@@ -100,6 +100,9 @@ export default function Signin() {
           </div>
           <Button variant="contained" type="submit" disabled={isLoading}>
             Đăng Nhập
+          </Button>
+          <Button sx={{margin:"0 0 0 10px"}} variant="outlined" onClick={() => navigate("/sign-up")}>
+            Đăng ký
           </Button>
           {error && <Error>{error}</Error>}
         </form>
