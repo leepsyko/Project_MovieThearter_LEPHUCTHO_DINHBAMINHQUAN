@@ -130,6 +130,7 @@ export default function UpdateUser({ infoUser, onClose }) {
         <Grid container spacing={2}>
           <Grid item xs={6}>
             <TextField
+              disabled
               label="Tài khoản"
               variant="outlined"
               fullWidth
@@ -263,7 +264,7 @@ export default function UpdateUser({ infoUser, onClose }) {
             }}
           >
             <Box display={"flex"} justifyContent={"center"}>
-             
+
             </Box>
             <Typography id="modal-modal-description" sx={{ mt: 2 }}>
               Chỉnh sửa thông tin người dùng thành công
