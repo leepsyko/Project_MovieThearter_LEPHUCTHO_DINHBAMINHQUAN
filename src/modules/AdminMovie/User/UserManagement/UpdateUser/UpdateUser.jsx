@@ -231,7 +231,7 @@ export default function UpdateUser({ infoUser, onClose }) {
               <Box display={"flex"} justifyContent={"center"}>
                 <img
                   style={{ width: "80px", marginTop: "10px" }}
-                  src="/img/animation_error_small.gif"
+                  src="/Animation_1697533657854.gif"
                   alt="confirm"
                 />
               </Box>

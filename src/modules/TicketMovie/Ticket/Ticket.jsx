@@ -114,7 +114,7 @@ export default function Ticket({ ticketInfo }) {
           <ModalContent>
             <img
               style={{ width: "120px", marginTop: "10px" }}
-              src="/img/animation_lnfs5c14_small.gif"
+              src="/Animation_1697533657854.gif"
               alt="confirm"
             />
             <Typography variant="h5" sx={{ fontWeight: "bold" }}>
