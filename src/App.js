@@ -26,9 +26,10 @@ function App() {
             <Route element={<ProtectedRoute />}>
               <Route path="tickets/:showtimeId" element={<TicketMovie />} />
             </Route>
+            <Route path="/sign-in" element={<Signin />} />
+            <Route path="/sign-up" element={<Signup />} />
           </Route>
 
-          
           {/* Admin */}
           <Route element={<AdminProtectedMovieRoute />}>
             <Route path="/admin" element={<AdminLayout />}>
@@ -38,8 +39,6 @@ function App() {
             </Route>
           </Route>
 
-          <Route path="/sign-in" element={<Signin />} />
-          <Route path="/sign-up" element={<Signup />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
